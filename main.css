@@ -1,0 +1,71 @@
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+} 
+body {
+    background-color: white;
+    margin: 0;
+}
+
+header {
+    background: white;
+    padding: 10px;
+}
+header h1 {
+    margin: 0;
+}
+div.container {
+    width: 600px;
+    margin: auto;
+}
+
+
+div.post {
+    margin-top: 20px;
+    background: white;
+}
+div.post img {
+    width: 100%;
+}
+div.post h2 {
+ margin: 0
+ ;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+span.info {
+    align-items: center;
+}
+.comment {
+    padding: 10px;
+}
+
+.col-12 {
+    padding-left: 50%;
+   
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: gray !important;
+}
+a.active {
+    color: white !important;
+}
+
+a {
+    color: gray !important;
+}
+
+.dropdown-menu {
+    
+    left: -170px !important;
+}
+#dropdownMenuButton {
+    margin-left: 15px;
+}
+#pills-profile {
+    width: 60%;
+    margin:auto !important;
+}
